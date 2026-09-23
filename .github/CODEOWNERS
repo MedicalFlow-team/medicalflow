@@ -1,0 +1,16 @@
+# Responsáveis por cada área do projeto MedicalFlow
+
+# Geral
+* @GabrielMarques1
+
+# Backend (Elysia, Prisma, SQLite)
+/backend/ @ruanmnunessss @GabrielMarques1
+
+# Frontend & Design (React, UI/UX)
+/frontend/ @rodrigoa0987 @GabrielMarques1
+
+# Infraestrutura & CI/CD
+docker-compose.yml @joaotolove @GabrielMarques1
+.github/workflows/ @joaotolove @GabrielMarques1
+/backend/Dockerfile @joaotolove @GabrielMarques1
+/frontend/Dockerfile @joaotolove @GabrielMarques1
