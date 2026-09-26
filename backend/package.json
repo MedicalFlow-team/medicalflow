@@ -1,0 +1,29 @@
+{
+  "name": "medicalflow-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "prisma:validate": "prisma validate",
+    "prisma:generate": "prisma generate",
+    "prisma:smoke": "bun scripts/prisma-smoke.ts"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.0.0",
+    "@prisma/client": "^7.0.0",
+    "elysia": "^1.0.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/bun": "^1.2.0",
+    "@types/node": "^24.0.0",
+    "@types/pg": "^8.15.5",
+    "dotenv": "^16.4.7",
+    "prisma": "^7.0.0",
+    "typescript": "^5.9.3"
+  }
+}
